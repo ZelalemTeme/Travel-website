@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 2.6rem;
+
+}
+h2{
+    font-size: 4.8rem;
+}
+h3
+{
+    font-size: 3rem;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+button,label,input,p{
+    font-size: 2rem;
+}
+.head{
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    
+}
+button{
+    padding: 2rem 6rem;
+    background-color: #1e4129;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: backgroung 0.5s ease-in-out;
+
+}
+button:hover{
+    background: #27394e;
+}
+
+   
+
+nav{
+    width: 90%;
+    margin: auto;
+    color: whitesmoke;
+    padding: 2rem;
+    align-items: center;
+    min-height: 10vh;
+    display: flex;
+    position: sticky;
+   
+}
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    
+}
+
+#logo{
+    flex: 2 1 40rem;
+    font-family: 'Poppins', sans-serif;
+}
+.hero{
+    background: linear-gradient(rgba(0, 0, 0,0.5),transparent), url(image/sunny.jpeg);
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+#Location{
+    min-height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0,0.8),transparent), url(image/pexels-photo-12109950.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: rgba(223, 184, 184, 0.671);
+    
+    
+}
+.locations-head{
+    width: 90%;
+    margin: auto;
+    padding: 3rem;
+}
+.perfect{
+    text-decoration: underline;
+    padding: 2rem;
+}
+
+.benefit-header{
+    background-color: rgba(46, 44, 54, 0.938);
+    color: bisque;
+    justify-content: center;
+    display: flex;
+    padding: 3rem;
+    flex-direction: column;
+    min-height: 30vh;
+    align-items: center;
+    text-align: center;
+}
+.benefit-header h3{
+    padding: 1rem;
+
+
+}
+.cards{
+    flex-wrap: wrap;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 70vh;
+    align-items: center;
+    
+    
+}
+.card{
+    margin: 2rem 5rem;
+    display: flex;
+    flex: 1 1 25rem;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    min-height: 40vh;
+    box-shadow: 0px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+.card img{
+    height: 100px;
+    max-width: 15%;
+    margin: 2rem;
+}
+.card h4 , .card p{
+    padding: 1rem;
+}
+.card h4{
+    font-size: 20px;
+}
+.card-img{
+    background-color: rgb(58, 52, 52);
+    width: 100%;
+    color: white;
+}
+#Contact{
+background:linear-gradient(rgba(0, 0, 0,0.8),transparent), url(image/pexels-photo-12344991.jpeg);
+background-position: center;
+background-repeat: no-repeat;
+align-items: center;
+justify-content: center;
+text-align: center;
+background-size: cover;
+display: flex;
+flex-direction: column;
+min-height: 70vh;
+color: white;
+justify-content: center;
+
+}
+.form-wrap{
+    background:rgba(19, 28, 39,0.8);
+    color: rgb(168, 161, 161);
+    width: 60%;
+   justify-content: center;
+    border-radius: 20px;
+}
+.form-name,.form-email{
+    padding: 3rem;
+    text-align: center;
+}
+.head-form{
+    padding-top: 3rem;
+}
+.form-wrap{
+    margin: 0rem 3rem;
+}
+.form-wrap button{
+    width: 100%;
+    padding: 2rem;
+    margin-top: 8rem;
+    
+
+}
+.form-wrap input{
+    padding: 1rem 3rem;
+}
+footer{
+    color: white;
+    background:rgba(19, 28, 39,1);
+
+}
+footer h5{
+    flex:  1 1 40rem;
+    font-size: 20px;
+
+}
+.fotter-wraerp{
+    display: flex;
+    min-height: 10vh;
+    flex-wrap: wrap;
+    flex:  1 1 40rem;
+    width: 90%;
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    margin: auto;
+}
+footer ul {
+    display: flex;
+    list-style: none;
+    flex: 1 1 40rem;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+img{
+    width: 40px;
+}
+
+@media  screen and (max-width:673px) {
+
+    html{
+        font-size: 45%;
+    }
+    nav{
+        text-align: center;
+        
+    }
+    
+    #logo{
+        padding: 2rem;
+        align-items: center;
+        
+        
+    }
+    footer{
+        text-align: center;
+    }
+    footer h5 {
+        padding-bottom: 3rem;
+    }
+    
+    
+}
+@media  screen and (max-width:485px){
+    nav ul{
+        justify-content: space-around;
+    }
+
+}
